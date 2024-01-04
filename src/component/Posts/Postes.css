@@ -1,0 +1,36 @@
+.posters-title{
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 70px ;
+    /* width: 100% !important; */
+    font-weight: 600;
+    font-size: 26px;
+    padding: 5px 0;
+    z-index: 1 ;
+    margin-top: 25px;
+}
+.poster-lable{
+    background-image: linear-gradient(to left, aliceblue 5%, transparent 5%, transparent 100%);
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    width: fit-content;
+    text-align: end;
+    color: white;
+    margin-right: 8px !important;
+    padding: 8px 20px;
+    z-index: 1;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 10px;
+}
+
+
+.posters {
+    width: 100%;
+    margin: auto;
+    background-color: #444343;
+    direction: ltr;
+}

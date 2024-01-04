@@ -1,0 +1,8 @@
+.hg-button span {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(0, 0, 0) !important;
+}
+.hg-button {
+  background-color: #e91e63 !important;
+}

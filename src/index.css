@@ -1,0 +1,50 @@
+body {
+    direction: rtl;
+    overflow-x: hidden !important;
+    outline: none !important;
+    border: 0 !important;
+    box-sizing: border-box !important;
+    box-shadow: none !important;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-y: scroll !important;
+    user-select: none;
+}
+
+.modal-backdrop,
+.offcanvas-backdrop {
+    display: none !important;
+}
+
+.btn {
+    --bs-btn-border-width: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    border-radius: 20px !important;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #212529;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+th {
+    text-align: match-parent !important;
+    text-align: inherit !important;
+}

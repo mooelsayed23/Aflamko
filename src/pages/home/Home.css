@@ -1,0 +1,45 @@
+.main-content {
+    /* margin: 67px 80px 0 80px;  if use sidebar*/
+    /* width: calc(100% - 80px); if use sidebar*/
+    /* margin: 72px 0 0 0; */
+    width: 100%;
+    float: right;
+    background-color: #212529;
+}
+
+.main-conter {
+    width: 90%;
+    margin: auto;
+}
+
+.headroom--pinned {
+    margin: 72px auto 0;
+    width: 100% !important;
+    z-index: 2 !important;
+}
+
+
+.headroom--unpinned {
+    margin: 72px auto;
+    width: 100%;
+    z-index: 0 !important;
+}
+
+
+
+@media screen and (max-width: 991.98px) {
+
+    .headroom--pinned {
+        width: calc(100%) !important;
+    }
+
+    .headroom--unpinned {
+        margin: 0 0 0 0 !important;
+        z-index: 0 !important;
+    }
+
+    .main-links .links {
+        width: 100% !important;
+        justify-content: flex-start !important;
+    }
+}

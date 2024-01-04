@@ -1,0 +1,121 @@
+.main-links {
+    position: relative;
+}
+
+.main-links .links {
+    flex-wrap: nowrap;
+    font-family: monospace !important;
+    padding-bottom: 9px;
+    text-wrap: nowrap;
+    width: 43%;
+    margin: auto;
+    -ms-overflow-style: none;
+    overflow-x: auto !important;
+    overflow-y: hidden;
+}
+
+.main-links .links::-webkit-scrollbar {
+    display: none;
+}
+
+.main-links .links {
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+
+.main-links .links::-webkit-scrollbar {
+    width: 0;
+}
+
+.main-links .links::-moz-scrollbar {
+    width: 0;
+}
+
+.main-links .links::-apple-scrollbar {
+    width: 0;
+}
+
+select {
+    direction: rtl !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: 900 !important;
+    border-radius: 10px !important;
+    width: 130px;
+    padding: 5px;
+    text-align: center;
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+select:focus-within {
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+
+
+select::-webkit-scrollbar {
+    width: 15px;
+}
+
+select::-webkit-scrollbar-thumb {
+    background-color: #f0f0f0;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    border-radius: 20px !important;
+}
+
+select::-webkit-scrollbar-track {
+    background-color: #666;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.links div {
+    margin-left: 5px;
+    width: 80px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.bg-color,
+.links div:hover,
+select:hover,
+select:focus {
+    background-color: aliceblue !important;
+    color: black !important;
+    font-weight: 900;
+}
+
+.headroom-wrapper {
+    background-color: #212529 !important;
+
+}
+
+.headroom.headroom--unfixed.headroom-disable-animation {
+    margin: 0 auto 0 !important;
+    width: 100% !important;
+    z-index: 2 !important;
+}
+
+.headroom.headroom--unfixed {
+    margin: 0 auto 0 !important;
+    width: 100% !important;
+    z-index: 2 !important;
+}
+
+@media screen and (max-width: 1023.98px) {
+    .main-conter {
+        width: calc(100%) !important;
+        float: none;
+    }
+
+    .links {
+        padding-right: 10px !important;
+    }
+}

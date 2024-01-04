@@ -1,0 +1,23 @@
+.search-cards{
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: beige;
+}
+.search-body{
+    margin: auto;
+    width: 75%;
+}
+.search-body p{
+    width: fit-content !important;
+    margin: auto;    
+}
+.search-body img{
+    max-height: 300px;
+    width: 100%;
+    background-size: cover;
+    overflow: auto;
+}
