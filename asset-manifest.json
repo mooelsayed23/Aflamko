@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Aflamko/static/css/main.7702fd58.css",
-    "main.js": "/Aflamko/static/js/main.7457a371.js",
+    "main.css": "/Aflamko/static/css/main.21e85e47.css",
+    "main.js": "/Aflamko/static/js/main.d9bc7361.js",
     "static/js/787.65ace16f.chunk.js": "/Aflamko/static/js/787.65ace16f.chunk.js",
     "static/media/slick.svg": "/Aflamko/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Aflamko/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Aflamko/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Aflamko/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Aflamko/index.html",
-    "main.7702fd58.css.map": "/Aflamko/static/css/main.7702fd58.css.map",
-    "main.7457a371.js.map": "/Aflamko/static/js/main.7457a371.js.map",
+    "main.21e85e47.css.map": "/Aflamko/static/css/main.21e85e47.css.map",
+    "main.d9bc7361.js.map": "/Aflamko/static/js/main.d9bc7361.js.map",
     "787.65ace16f.chunk.js.map": "/Aflamko/static/js/787.65ace16f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7702fd58.css",
-    "static/js/main.7457a371.js"
+    "static/css/main.21e85e47.css",
+    "static/js/main.d9bc7361.js"
   ]
 }
