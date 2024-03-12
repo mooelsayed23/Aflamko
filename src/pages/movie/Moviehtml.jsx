@@ -57,12 +57,12 @@ export default function Moviehtml({
             <div className="play_btn position-absolute h-100 top-0">
               <a
                 href={`https://www.imdb.com/title/${imdb}/`}
-                target="_blank"
+                
                 title="تشغيل"
               >
-                <p>
+                
                   <FontAwesomeIcon icon={faPlayCircle} />
-                </p>
+                
               </a>
             </div>
           </div>
