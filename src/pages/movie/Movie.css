@@ -2,7 +2,7 @@
   background: -webkit-linear-gradient(left, #92FE9D, #00C9FF);
   background: -o-linear-gradient(left, #92FE9D, #00C9FF);
   background: linear-gradient(to right, #92FE9D, #00C9FF);
-  padding-top: 35px;
+  padding-top: 35px !important;
   max-width: 98%;
   margin: auto;
   -webkit-border-radius: 5px;
