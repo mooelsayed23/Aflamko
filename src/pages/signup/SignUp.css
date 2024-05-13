@@ -142,9 +142,6 @@ input[type="email"] {
   font-weight: bold;
 }
 
-button:active {
-  transform: scale(0.95);
-}
 
 .ghost {
   background: transparent;
