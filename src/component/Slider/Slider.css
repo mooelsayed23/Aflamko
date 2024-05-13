@@ -1,85 +1,88 @@
 .slider-contaner {
-    width: 100%;
+  width: 100%;
 }
 
 .slider-body {
-    width: calc(100%);
-    margin: 4px auto;
+  width: 90%;
+  margin: 4px auto;
 }
 
 .slider-body .ticket {
-    font-size: 26px;
-    padding: 5px 0px;
-
+  font-size: 26px;
+  padding: 5px 0px;
 }
 
-
 .ticket {
-    margin-right: 8px !important;
-    width: 145px;
-    text-align: end;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 10px;
+  margin-right: 8px !important;
+  width: 145px;
+  text-align: end;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
 }
 
 .slick-prev,
 .slick-next {
-    position: absolute;
-    display: block;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 0;
-    line-height: 0;
-    top: 50%;
-    width: 5%;
-    height: 100%;
-    padding: 5px;
-    z-index: 1 !important;
-    opacity: 0;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    border-radius: 10px;
+  position: absolute;
+  display: block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0;
+  line-height: 0;
+  top: 50%;
+  width: 5%;
+  height: 100%;
+  padding: 5px;
+  z-index: 1 !important;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .slick-next {
-    right: -3px;
-    text-align: end;
-    background-image: linear-gradient(to left, #00bcd4c7 45%, transparent 45%, transparent 100%) !important;
+  right: -3px;
+  text-align: end;
+  background-image: linear-gradient(
+    to left,
+    #00bcd4c7 45%,
+    transparent 45%,
+    transparent 100%
+  ) !important;
 }
-
-
 
 .slick-prev {
-    left: -10px;
-    text-align: start;
-    background-image: linear-gradient(to right, #00bcd4c7 45%, transparent 45%, transparent 100%) !important;
-
+  left: -10px;
+  text-align: start;
+  background-image: linear-gradient(
+    to right,
+    #00bcd4c7 45%,
+    transparent 45%,
+    transparent 100%
+  ) !important;
 }
-
-
 
 .slick-slider:hover .slick-prev,
 .slick-slider:hover .slick-next {
-    opacity: 1;
+  opacity: 1;
 }
 
 .slick-slider {
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    -webkit-user-select: none !important;
-    -webkit-touch-callout: none !important;
-    -khtml-user-select: none !important;
-    -webkit-tap-highlight-color: transparent !important;
-    touch-action: pan-y !important;
-    user-select: none !important;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -khtml-user-select: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  touch-action: pan-y !important;
+  user-select: none !important;
 }

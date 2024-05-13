@@ -9,6 +9,10 @@
     z-index: 1 ;
     margin-top: 25px;
 }
+.posters-main{
+    width: 90%;
+    margin: auto;
+}
 .poster-lable{
     background-image: linear-gradient(to left, aliceblue 5%, transparent 5%, transparent 100%);
     font-family: 'Times New Roman', Times, serif;

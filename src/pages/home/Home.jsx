@@ -76,7 +76,7 @@ export default function Home() {
   return (
     <>
       <div className="main-content position-relative ">
-        <div className=" main-conter">
+        <div>
           <MainSlider />
 
           <Postes data={data} currentLabel={currentLabel} />

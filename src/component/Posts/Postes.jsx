@@ -22,7 +22,7 @@ export default function Postes({ data, currentLabel }) {
   }, []);
 
   return (
-    <>
+    <div className="posters-main">
       <div className=" posters-title text-end ">
         <span className="poster-lable">افلام {currentLabel}</span>
       </div>
@@ -51,6 +51,6 @@ export default function Postes({ data, currentLabel }) {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 }

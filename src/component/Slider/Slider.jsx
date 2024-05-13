@@ -55,7 +55,7 @@ export default function MainSlider() {
       });
   }, []);
   return (
-    <div className="slider-contaner ">
+    <div>
       <div className="slider-body">
         <div className="s-tik ticket">
           المتصدر حاليا
